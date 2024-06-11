@@ -10,8 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "mysql2": "^3.10.0",
     "nuxt": "^3.11.2",
+    "sequelize": "^6.37.3",
+    "sequelize-typescript": "^2.1.6",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/sequelize": "^4.28.20"
   }
 }
