@@ -15,7 +15,8 @@
     "sequelize": "^6.37.3",
     "sequelize-typescript": "^2.1.6",
     "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "vue-router": "^4.3.2",
+    "winston": "^3.13.0"
   },
   "devDependencies": {
     "@types/sequelize": "^4.28.20"
