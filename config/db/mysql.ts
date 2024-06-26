@@ -14,6 +14,12 @@ const sequelize = new Sequelize(
   {
     host: MYSQL_CONFIG.host,
     dialect: "mysql",
+    pool: {
+      max: 5,
+      min: 0,
+      acquire: 30000,
+      idle: 10000,
+    },
   }
 );
 
